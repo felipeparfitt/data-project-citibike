@@ -32,3 +32,16 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+#FROM ASTRO
+.git
+.env
+.DS_Store # macOS specific ignore
+airflow_settings.yaml
+__pycache__/
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+*.json
