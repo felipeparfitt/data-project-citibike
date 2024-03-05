@@ -1,0 +1,56 @@
+# Whenever the dags directory is pushed or a pull request to main branch this file pretend to check
+# python dependencies, code style, code quality, DAG import errors and unit tests.
+
+name: Test-Dags
+
+on:
+    push:
+        paths:
+            - 'dags/**'
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4 # Clone the repo to where the job is being carrying out
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.11.8'
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
+                  pip check
+
+            - name: Verify erros with flake8 # check programming errors according to PEP8 / code quality
+              run: |
+                  pip install flake8
+                  flake8 --ignore E501 dags --benchmark -v
+            
+            - name: Confirm Black code compliance # check code formating
+              uses: rickstaa/action-black@v1
+              # run: |
+              #     pip install pytest-black==0.3.12
+              #     pytest dags --black -v
+
+            - name: Test dags with Pytest # Testing tool (unit tests)
+              run: |
+                  pip install pytest==8.0.2
+                  pushd tests/dags || exit
+                  python3 -m pytest tests.py -v || exit
+                  popd || exit
+            
+            ### Add sqlfluff to verify sql code; 
+                
+            - name: Verify json integrity
+              run: |
+                  python -m json.tool \
+                  include/airflow_variables/variables.json || exit 1
