@@ -25,7 +25,8 @@ def citibikedataset():
 
     task_download_dataset = BashOperator(
         task_id="download_dataset",
-        bash_command="sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh {{ execution_date.strftime('%Y') }} {{ execution_date.strftime('%m') }}",
+        bash_command="sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh \
+        {{ next_execution_date .strftime('%Y') }} {{ next_execution_date .strftime('%m') }}",
     )
 
     task_finish = DummyOperator(task_id="Finish")

@@ -1,0 +1,659 @@
+[2024-03-05T20:42:14.347+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:14.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:42:14.348+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:14.365+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:14.552+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.551+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:citibikedataset
+[2024-03-05T20:42:14.563+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.562+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:citibikedataset
+[2024-03-05T20:42:14.569+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.569+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:citibikedataset
+[2024-03-05T20:42:14.569+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:42:14.579+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.578+0000] {dag.py:3058} INFO - Creating ORM DAG for citibikedataset
+[2024-03-05T20:42:14.588+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:14.587+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:42:14.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.263 seconds
+[2024-03-05T20:42:44.733+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:44.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:42:44.736+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:44.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:44.751+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:42:44.777+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:44.777+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:42:44.792+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:42:44.792+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:42:44.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.072 seconds
+[2024-03-05T20:43:14.918+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:14.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:43:14.919+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:14.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:14.927+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:14.941+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:14.941+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:43:14.953+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:14.953+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:43:14.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T20:43:45.080+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:45.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:43:45.081+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:45.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:45.088+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:43:45.104+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:45.103+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:43:45.127+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:43:45.127+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:43:45.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.059 seconds
+[2024-03-05T20:44:15.258+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:15.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:44:15.259+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:15.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:15.265+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:15.279+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:15.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:44:15.292+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:15.292+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:44:15.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T20:44:45.457+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:45.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:44:45.458+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:45.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:45.466+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:44:45.482+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:45.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:44:45.495+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:44:45.495+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:44:45.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.050 seconds
+[2024-03-05T20:45:15.640+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:15.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:45:15.641+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:15.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:15.648+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:15.661+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:15.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:45:15.673+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:15.673+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:45:15.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T20:45:45.834+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:45.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:45:45.834+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:45.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:45.841+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:45:45.855+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:45.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:45:45.867+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:45:45.867+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:45:45.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T20:52:50.847+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:52:50.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:52:50.848+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:52:50.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:52:50.860+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:52:50.943+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:52:50.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:52:50.956+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:52:50.955+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:52:50.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.123 seconds
+[2024-03-05T20:53:21.003+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:21.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:53:21.004+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:21.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:21.010+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:21.023+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:21.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:53:21.036+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:21.036+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:53:21.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T20:53:51.154+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:51.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:53:51.155+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:51.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:51.161+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:53:51.176+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:51.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:53:51.188+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:53:51.188+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T20:53:51.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T20:54:21.318+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:21.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:54:21.320+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:54:21.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:21.326+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:21.341+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:54:21.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:54:21.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T20:54:51.503+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:51.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:54:51.505+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:54:51.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:51.522+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:54:51.552+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:54:51.552+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:54:51.570+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:54:51.570+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:54:51.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.088 seconds
+[2024-03-05T20:55:21.687+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:21.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:55:21.689+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:21.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:21.696+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:21.710+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:21.710+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:55:21.722+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:21.722+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:55:21.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.047 seconds
+[2024-03-05T20:55:51.869+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:51.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:55:51.870+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:51.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:51.877+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:55:51.891+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:51.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:55:51.904+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:55:51.903+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:55:51.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T20:56:22.048+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:22.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:56:22.050+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:22.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:22.056+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:22.069+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:22.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:56:22.081+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:22.081+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:56:22.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T20:56:52.218+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:52.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:56:52.218+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:52.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:52.225+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:56:52.239+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:52.238+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:56:52.253+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:56:52.252+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:56:52.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.047 seconds
+[2024-03-05T20:57:22.397+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:22.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:57:22.398+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:22.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:22.405+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:22.418+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:22.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:57:22.429+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:22.429+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:57:22.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T20:57:52.581+0000] {processor.py:161} INFO - Started process (PID=418) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:52.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:57:52.582+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:52.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:52.589+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:57:52.602+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:52.602+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:57:52.613+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:57:52.613+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:57:52.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T20:58:22.772+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:22.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:58:22.774+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:22.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:22.780+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:22.793+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:22.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:58:22.804+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:22.804+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:58:22.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T20:58:52.958+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:52.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:58:52.959+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:52.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:52.966+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:58:52.980+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:52.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:58:52.992+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:58:52.992+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:58:53.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T20:59:23.132+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:23.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:59:23.133+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:23.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:23.139+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:23.153+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:23.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:59:23.165+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:23.165+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:59:23.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T20:59:53.311+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:53.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T20:59:53.312+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:53.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:53.319+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T20:59:53.335+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:53.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T20:59:53.347+0000] {logging_mixin.py:188} INFO - [2024-03-05T20:59:53.347+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T20:59:53.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:00:23.494+0000] {processor.py:161} INFO - Started process (PID=473) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:23.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:00:23.495+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:23.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:23.502+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:23.517+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:23.516+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:00:23.529+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:23.529+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:00:23.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:00:53.667+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:53.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:00:53.668+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:53.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:53.674+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:00:53.688+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:53.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:00:53.700+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:00:53.700+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:00:53.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:01:23.851+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:23.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:01:23.852+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:23.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:23.859+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:23.874+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:23.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:01:23.888+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:23.888+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:01:23.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:01:54.010+0000] {processor.py:161} INFO - Started process (PID=510) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:54.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:01:54.011+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:54.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:54.020+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:01:54.036+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:54.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:01:54.049+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:01:54.048+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:01:54.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.051 seconds
+[2024-03-05T21:02:24.195+0000] {processor.py:161} INFO - Started process (PID=523) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:24.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:02:24.196+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:24.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:24.202+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:24.216+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:24.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:02:24.228+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:24.228+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:02:24.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:02:54.387+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:54.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:02:54.388+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:54.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:54.395+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:02:54.409+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:54.409+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:02:54.421+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:02:54.421+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:02:54.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:03:24.554+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:24.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:03:24.556+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:24.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:24.563+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:24.578+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:24.577+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:03:24.591+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:24.591+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:03:24.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:03:54.745+0000] {processor.py:161} INFO - Started process (PID=560) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:54.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:03:54.746+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:54.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:54.753+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:03:54.767+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:54.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:03:54.779+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:03:54.778+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:03:54.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:04:24.927+0000] {processor.py:161} INFO - Started process (PID=571) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:24.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:04:24.928+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:24.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:24.934+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:24.948+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:24.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:04:24.961+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:24.961+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:04:24.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:04:55.097+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:55.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:04:55.098+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:55.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:55.105+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:04:55.120+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:55.120+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:04:55.132+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:04:55.132+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:04:55.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.047 seconds
+[2024-03-05T21:05:25.277+0000] {processor.py:161} INFO - Started process (PID=597) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:25.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:05:25.279+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:25.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:25.288+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:25.304+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:25.303+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:05:25.316+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:25.316+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:05:25.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.051 seconds
+[2024-03-05T21:05:55.468+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:55.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:05:55.469+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:55.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:55.475+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:05:55.489+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:55.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:05:55.501+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:05:55.501+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:05:55.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:06:25.650+0000] {processor.py:161} INFO - Started process (PID=619) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:25.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:06:25.651+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:25.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:25.658+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:25.671+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:25.671+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:06:25.683+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:25.683+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:06:25.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:06:55.847+0000] {processor.py:161} INFO - Started process (PID=630) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:55.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:06:55.848+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:55.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:55.854+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:06:55.868+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:55.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:06:55.880+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:06:55.880+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:06:55.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:07:26.037+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:26.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:07:26.039+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:26.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:26.047+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:26.061+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:26.061+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:07:26.076+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:26.076+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:07:26.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.050 seconds
+[2024-03-05T21:07:27.056+0000] {processor.py:161} INFO - Started process (PID=646) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:27.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:07:27.057+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:27.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:27.064+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:27.126+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:27.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:07:27.137+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:27.137+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:07:27.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.095 seconds
+[2024-03-05T21:07:57.308+0000] {processor.py:161} INFO - Started process (PID=657) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:57.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:07:57.309+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:57.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:57.316+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:07:57.329+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:57.329+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:07:57.341+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:07:57.341+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:07:57.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:08:27.494+0000] {processor.py:161} INFO - Started process (PID=668) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:27.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:08:27.495+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:27.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:27.501+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:27.515+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:27.515+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:08:27.527+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:27.526+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:08:27.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:08:57.664+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:57.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:08:57.666+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:57.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:57.681+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:08:57.703+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:57.703+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:08:57.716+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:08:57.716+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:08:57.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.065 seconds
+[2024-03-05T21:09:27.823+0000] {processor.py:161} INFO - Started process (PID=690) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:27.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:09:27.825+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:27.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:27.831+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:27.847+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:27.847+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:09:27.858+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:27.858+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:09:27.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:09:58.026+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:58.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:09:58.028+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:58.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:58.034+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:09:58.049+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:58.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:09:58.063+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:09:58.063+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:09:58.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.050 seconds
+[2024-03-05T21:10:28.214+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:28.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:10:28.216+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:28.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:28.222+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:28.235+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:28.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:10:28.247+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:28.247+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:10:28.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:10:58.391+0000] {processor.py:161} INFO - Started process (PID=723) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:58.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:10:58.392+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:58.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:58.399+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:10:58.414+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:58.414+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:10:58.428+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:10:58.428+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:10:58.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:11:28.571+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:28.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:11:28.573+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:28.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:28.580+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:28.638+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:28.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:11:28.643+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:28.643+0000] {dag.py:3058} INFO - Creating ORM DAG for citibikedataset
+[2024-03-05T21:11:28.648+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:28.648+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T21:11:28.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.090 seconds
+[2024-03-05T21:11:58.775+0000] {processor.py:161} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:58.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:11:58.777+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:58.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:58.789+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:11:58.803+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:58.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:11:58.814+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:11:58.814+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2022-12-01 00:00:00+00:00, run_after=2023-01-01 00:00:00+00:00
+[2024-03-05T21:11:58.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.052 seconds
+[2024-03-05T21:12:28.972+0000] {processor.py:161} INFO - Started process (PID=760) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:28.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:12:28.974+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:12:28.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:28.980+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:28.995+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:12:28.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:12:29.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:12:44.064+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:44.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:12:44.066+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:12:44.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:44.073+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:12:44.090+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:12:44.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:12:44.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.052 seconds
+[2024-03-05T21:13:14.248+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:14.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:13:14.250+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:13:14.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:14.257+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:14.271+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:13:14.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:13:14.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:13:34.835+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:34.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:13:34.836+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:13:34.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:34.848+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:13:34.914+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:13:34.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:13:34.926+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:13:34.926+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:13:34.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.103 seconds
+[2024-03-05T21:14:05.003+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:05.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:14:05.004+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:05.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:05.010+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:05.024+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:05.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:14:05.037+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:05.037+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:14:05.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:14:35.196+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:35.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:14:35.197+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:35.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:35.203+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:35.217+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:35.217+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:14:35.229+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:35.229+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:14:35.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:14:48.304+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:48.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:14:48.306+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:48.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:48.313+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:48.372+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:48.372+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:14:48.383+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:48.383+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:14:48.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.091 seconds
+[2024-03-05T21:14:49.311+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:49.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:14:49.312+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:49.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:49.318+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:14:49.324+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:49.324+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:14:49.337+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:14:49.337+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:14:49.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.038 seconds
+[2024-03-05T21:15:19.479+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:19.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:19.480+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:19.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:19.487+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:19.501+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:19.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:19.518+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:19.518+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:19.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.052 seconds
+[2024-03-05T21:15:22.505+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:22.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:22.507+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:22.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:22.514+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:22.529+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:22.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:22.542+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:22.542+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:22.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:15:38.646+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:38.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:38.647+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:38.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:38.654+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:38.709+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:38.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:38.720+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:38.720+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:38.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.088 seconds
+[2024-03-05T21:15:39.659+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:39.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:39.660+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:39.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:39.667+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:39.674+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:39.674+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:39.686+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:39.686+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:39.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.038 seconds
+[2024-03-05T21:15:40.674+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:40.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:40.675+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:40.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:40.681+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:40.688+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:40.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:40.700+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:40.700+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:40.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.038 seconds
+[2024-03-05T21:15:59.675+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:59.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:15:59.676+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:59.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:59.685+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:15:59.751+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:59.751+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:15:59.767+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:15:59.767+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:15:59.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.105 seconds
+[2024-03-05T21:16:29.819+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:16:29.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:16:29.820+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:16:29.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:16:29.828+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:16:29.843+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:16:29.843+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:16:29.857+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:16:29.857+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:16:29.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:17:00.037+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:00.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:17:00.038+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:00.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:00.044+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:00.059+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:00.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:17:00.070+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:00.070+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:17:00.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:17:30.204+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:30.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:17:30.204+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:30.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:30.211+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:17:30.226+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:30.225+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:17:30.238+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:17:30.238+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:17:30.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:18:00.381+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:00.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:18:00.382+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:00.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:00.388+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:00.402+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:00.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:18:00.414+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:00.414+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:18:00.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:18:30.544+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:30.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:18:30.545+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:30.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:30.552+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:18:30.566+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:30.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:18:30.579+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:18:30.579+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:18:30.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.047 seconds
+[2024-03-05T21:19:00.760+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:00.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:19:00.761+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:00.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:00.767+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:00.781+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:00.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:19:00.793+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:00.793+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:19:00.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:19:30.928+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:30.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:19:30.929+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:30.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:30.936+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:19:30.951+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:30.951+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:19:30.963+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:19:30.963+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:19:30.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:20:01.120+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:01.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:20:01.121+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:01.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:01.128+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:01.141+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:01.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:20:01.153+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:01.153+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:20:01.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:20:31.276+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:31.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:20:31.277+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:31.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:31.284+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:20:31.300+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:31.300+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:20:31.313+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:20:31.313+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:20:31.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.049 seconds
+[2024-03-05T21:21:01.441+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:01.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:21:01.442+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:01.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:01.448+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:01.462+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:01.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:21:01.474+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:01.474+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:21:01.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:21:31.579+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:31.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:21:31.580+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:31.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:31.586+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:21:31.603+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:31.603+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:21:31.615+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:21:31.615+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:21:31.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.048 seconds
+[2024-03-05T21:22:01.763+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:01.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:22:01.764+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:01.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:01.770+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:01.784+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:01.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:22:01.796+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:01.796+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:22:01.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:22:31.924+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:31.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:22:31.925+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:31.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:31.932+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:22:31.945+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:31.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:22:31.957+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:22:31.957+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:22:31.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:23:02.112+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:02.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:23:02.113+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:02.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:02.120+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:02.134+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:02.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:23:02.146+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:02.146+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:23:02.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:23:32.273+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:32.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:23:32.274+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:32.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:32.280+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:23:32.293+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:32.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:23:32.305+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:23:32.305+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:23:32.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:24:02.439+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:02.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:24:02.440+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:02.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:02.446+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:02.459+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:02.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:24:02.473+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:02.473+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:24:02.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:24:32.593+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:32.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:24:32.594+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:32.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:32.601+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:24:32.614+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:32.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:24:32.626+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:24:32.626+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:24:32.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.046 seconds
+[2024-03-05T21:25:02.781+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:02.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:25:02.782+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:02.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:02.788+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:02.802+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:02.802+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:25:02.814+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:02.814+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:25:02.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:25:32.978+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:32.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:25:32.980+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:32.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:32.987+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:25:33.000+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:33.000+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:25:33.012+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:25:33.012+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:25:33.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:26:03.177+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:03.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:26:03.178+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:03.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:03.185+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:03.199+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:03.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:26:03.210+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:03.210+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:26:03.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:26:33.358+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:33.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:26:33.359+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:33.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:33.365+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:26:33.379+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:33.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:26:33.390+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:26:33.390+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:26:33.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:27:03.536+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:03.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:27:03.537+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:03.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:03.543+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:03.556+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:03.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:27:03.568+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:03.568+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:27:03.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:27:33.726+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:33.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:27:33.728+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:33.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:33.734+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:27:33.748+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:33.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:27:33.760+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:27:33.760+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:27:33.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:28:03.913+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:03.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:28:03.914+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:03.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:03.920+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:03.933+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:03.933+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:28:03.945+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:03.945+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:28:03.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:28:34.081+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:34.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:28:34.082+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:34.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:34.088+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:28:34.102+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:34.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:28:34.113+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:28:34.113+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:28:34.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.043 seconds
+[2024-03-05T21:29:04.245+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:04.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:29:04.246+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:04.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:04.252+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:04.265+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:04.265+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:29:04.277+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:04.276+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:29:04.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.042 seconds
+[2024-03-05T21:29:34.436+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:34.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:29:34.438+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:34.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:34.444+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:29:34.458+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:34.458+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:29:34.469+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:29:34.469+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:29:34.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:30:04.634+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:04.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:30:04.635+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:04.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:04.641+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:04.655+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:04.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:30:04.666+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:04.666+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:30:04.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:30:34.814+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:34.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:30:34.816+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:34.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:34.822+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:30:34.836+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:34.836+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:30:34.849+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:30:34.849+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:30:34.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.047 seconds
+[2024-03-05T21:31:05.021+0000] {processor.py:161} INFO - Started process (PID=516) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:05.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:31:05.022+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:05.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:05.029+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:05.043+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:05.042+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:31:05.055+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:05.055+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:31:05.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.045 seconds
+[2024-03-05T21:31:35.211+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:35.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:31:35.213+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:35.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:35.219+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:31:35.233+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:35.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:31:35.245+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:31:35.245+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:31:35.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.044 seconds
+[2024-03-05T21:59:27.976+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:59:27.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_citibikenyc.py for tasks to queue
+[2024-03-05T21:59:27.984+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:59:27.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:59:28.034+0000] {processor.py:840} INFO - DAG(s) 'citibikedataset' retrieved from /opt/airflow/dags/dag_citibikenyc.py
+[2024-03-05T21:59:28.162+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:59:28.161+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-05T21:59:28.301+0000] {logging_mixin.py:188} INFO - [2024-03-05T21:59:28.297+0000] {dag.py:3823} INFO - Setting next_dagrun for citibikedataset to 2024-03-01 00:00:00+00:00, run_after=2024-04-01 00:00:00+00:00
+[2024-03-05T21:59:28.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_citibikenyc.py took 0.493 seconds

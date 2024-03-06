@@ -44,7 +44,7 @@ jobs:
             - name: Test dags with Pytest # Testing tool (unit tests)
               run: |
                   pip install pytest==8.0.2
-                  pushd tests/dags || exit
+                  pushd include/tests/dags || exit
                   python3 -m pytest tests.py -v || exit
                   popd || exit
             

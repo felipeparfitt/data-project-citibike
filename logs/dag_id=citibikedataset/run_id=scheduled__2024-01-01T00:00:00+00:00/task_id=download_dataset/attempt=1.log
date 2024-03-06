@@ -1,0 +1,123 @@
+[2024-03-05T20:54:41.665+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-05T20:54:41.669+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-05T20:54:41.669+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-05T20:54:41.676+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2024-01-01 00:00:00+00:00
+[2024-03-05T20:54:41.679+0000] {standard_task_runner.py:60} INFO - Started process 323 to run task
+[2024-03-05T20:54:41.681+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpakvndc8k']
+[2024-03-05T20:54:41.682+0000] {standard_task_runner.py:88} INFO - Job 31: Subtask download_dataset
+[2024-03-05T20:54:41.705+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [running]> on host 8277132cfd53
+[2024-03-05T20:54:41.729+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2024-03-05T20:54:41.746+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-03-05T20:54:41.746+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-05T20:54:41.747+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh 2024 01']
+[2024-03-05T20:54:41.752+0000] {subprocess.py:86} INFO - Output:
+[2024-03-05T20:54:41.754+0000] {subprocess.py:93} INFO - 
+[2024-03-05T20:54:41.754+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2024/01
+[2024-03-05T20:54:41.754+0000] {subprocess.py:93} INFO - /opt/***/include/dataset/raw/2024/01
+[2024-03-05T20:54:41.755+0000] {subprocess.py:93} INFO - /opt/***/include/download_bike_dataset.sh: 14: wget: Permission denied
+[2024-03-05T20:54:41.755+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-03-05T20:54:41.760+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-03-05T20:54:41.761+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=citibikedataset, task_id=download_dataset, execution_date=20240101T000000, start_date=20240305T205441, end_date=20240305T205441
+[2024-03-05T20:54:41.768+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 31 for task download_dataset (Bash command failed. The command returned a non-zero exit code 1.; 323)
+[2024-03-05T20:54:41.772+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-05T20:54:41.783+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-05T21:13:12.989+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-05T21:13:12.994+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-05T21:13:12.994+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-05T21:13:13.001+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2024-01-01 00:00:00+00:00
+[2024-03-05T21:13:13.004+0000] {standard_task_runner.py:60} INFO - Started process 825 to run task
+[2024-03-05T21:13:13.005+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpa_xxkfae']
+[2024-03-05T21:13:13.006+0000] {standard_task_runner.py:88} INFO - Job 61: Subtask download_dataset
+[2024-03-05T21:13:13.031+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [running]> on host 8277132cfd53
+[2024-03-05T21:13:13.053+0000] {abstractoperator.py:707} ERROR - Exception rendering Jinja template for task 'download_dataset', field 'bash_command'. Template: "sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh {{ ds.strftime('%Y') }} {{ ds.strftime('%m') }}"
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 131, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/sandbox.py", line 391, in call
+    if not __self.is_safe_callable(__obj):
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/sandbox.py", line 275, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 859, in __getattr__
+    return self._fail_with_undefined_error()
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'strftime'
+[2024-03-05T21:13:13.053+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2334, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2465, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2877, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1241, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 131, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/sandbox.py", line 391, in call
+    if not __self.is_safe_callable(__obj):
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/sandbox.py", line 275, in is_safe_callable
+    getattr(obj, "unsafe_callable", False) or getattr(obj, "alters_data", False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 859, in __getattr__
+    return self._fail_with_undefined_error()
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'str object' has no attribute 'strftime'
+[2024-03-05T21:13:13.057+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=citibikedataset, task_id=download_dataset, execution_date=20240101T000000, start_date=20240305T211312, end_date=20240305T211313
+[2024-03-05T21:13:13.063+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 61 for task download_dataset ('str object' has no attribute 'strftime'; 825)
+[2024-03-05T21:13:13.098+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-05T21:13:13.114+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T13:27:47.269+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-06T13:27:47.275+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-03-06T13:27:47.275+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-06T13:27:47.282+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2024-01-01 00:00:00+00:00
+[2024-03-06T13:27:47.284+0000] {standard_task_runner.py:60} INFO - Started process 568 to run task
+[2024-03-06T13:27:47.286+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpa3labc_1']
+[2024-03-06T13:27:47.287+0000] {standard_task_runner.py:88} INFO - Job 87: Subtask download_dataset
+[2024-03-06T13:27:47.309+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2024-01-01T00:00:00+00:00 [running]> on host 45431f0a53e1
+[2024-03-06T13:27:47.337+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2024-03-06T13:27:47.354+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-03-06T13:27:47.355+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-06T13:27:47.355+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh         2024 02']
+[2024-03-06T13:27:47.360+0000] {subprocess.py:86} INFO - Output:
+[2024-03-06T13:27:47.361+0000] {subprocess.py:93} INFO - 
+[2024-03-06T13:27:47.361+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2024/02
+[2024-03-06T13:27:47.365+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-06T13:27:47.365+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-06T13:27:49.140+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  2 1863k    2 50686    0     0  48479      0  0:00:39  0:00:01  0:00:38 48456100 1863k  100 1863k    0     0  1050k      0  0:00:01  0:00:01 --:--:-- 1050k
+[2024-03-06T13:27:49.141+0000] {subprocess.py:93} INFO - 
+[2024-03-06T13:27:49.141+0000] {subprocess.py:93} INFO - Download completed successfully!
+[2024-03-06T13:27:49.141+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-06T13:27:49.153+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20240101T000000, start_date=20240306T132747, end_date=20240306T132749
+[2024-03-06T13:27:49.185+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T13:27:49.197+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

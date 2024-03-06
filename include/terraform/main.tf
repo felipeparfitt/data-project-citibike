@@ -32,9 +32,9 @@ provider "google" {
 # }
 
 resource "google_storage_bucket_object" "folder_with_dags" {
-  for_each = fileset("../dags", "**/*")
+  for_each = fileset("../../dags", "**/*")
 
   name   = "dags/${each.value}"
-  source = "../dags/${each.value}"
+  source = "../../dags/${each.value}"
   bucket = "pda-data-pipeline-bucket"
 }
