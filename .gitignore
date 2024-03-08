@@ -33,7 +33,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-#FROM ASTRO
+# FROM ASTRO
 .git
 .env
 .DS_Store # macOS specific ignore
@@ -45,4 +45,9 @@ webserver_config.py
 airflow.cfg
 airflow.db
 *.json
+
+
 dataset
+logs/
+save_to_parquet.py
+eda.ipynb

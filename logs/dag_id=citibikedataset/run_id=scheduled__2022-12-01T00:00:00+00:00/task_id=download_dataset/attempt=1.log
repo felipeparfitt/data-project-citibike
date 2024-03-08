@@ -121,3 +121,119 @@ jinja2.exceptions.UndefinedError: 'str object' has no attribute 'strftime'
 [2024-03-06T13:26:42.544+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20221201T000000, start_date=20240306T132640, end_date=20240306T132642
 [2024-03-06T13:26:42.579+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2024-03-06T13:26:42.588+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T17:35:20.557+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-06T17:35:20.564+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-06T17:35:20.564+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-06T17:35:20.572+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2022-12-01 00:00:00+00:00
+[2024-03-06T17:35:20.576+0000] {standard_task_runner.py:60} INFO - Started process 1172 to run task
+[2024-03-06T17:35:20.578+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2022-12-01T00:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpj99fn14s']
+[2024-03-06T17:35:20.579+0000] {standard_task_runner.py:88} INFO - Job 99: Subtask download_dataset
+[2024-03-06T17:35:20.605+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [running]> on host e43ee8560afa
+[2024-03-06T17:35:20.639+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2024-03-06T17:35:20.659+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-01T00:00:00+00:00'
+[2024-03-06T17:35:20.660+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-06T17:35:20.661+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh         2023 01']
+[2024-03-06T17:35:20.666+0000] {subprocess.py:86} INFO - Output:
+[2024-03-06T17:35:20.669+0000] {subprocess.py:93} INFO - 
+[2024-03-06T17:35:20.670+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2023/01
+[2024-03-06T17:35:20.677+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-06T17:35:20.677+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-06T17:35:22.540+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  4 1820k    4 86636    0     0  72484      0  0:00:25  0:00:01  0:00:24 72438100 1820k  100 1820k    0     0   977k      0  0:00:01  0:00:01 --:--:--  976k
+[2024-03-06T17:35:22.542+0000] {subprocess.py:93} INFO - Archive:  /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-06T17:35:22.585+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv
+[2024-03-06T17:35:22.585+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/__MACOSX/._JC-202301-citibike-tripdata.csv
+[2024-03-06T17:35:22.587+0000] {subprocess.py:93} INFO - 	zip warning: name not matched: JC-202301-citibike-tripdata.csv
+[2024-03-06T17:35:22.587+0000] {subprocess.py:93} INFO - 
+[2024-03-06T17:35:22.587+0000] {subprocess.py:93} INFO - zip error: Nothing to do! (/opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip)
+[2024-03-06T17:35:22.587+0000] {subprocess.py:93} INFO - 
+[2024-03-06T17:35:22.587+0000] {subprocess.py:93} INFO - Download completed successfully!
+[2024-03-06T17:35:22.588+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-06T17:35:22.601+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20221201T000000, start_date=20240306T173520, end_date=20240306T173522
+[2024-03-06T17:35:22.637+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T17:35:22.647+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-06T17:39:21.836+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-06T17:39:21.841+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-06T17:39:21.842+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-06T17:39:21.849+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2022-12-01 00:00:00+00:00
+[2024-03-06T17:39:21.852+0000] {standard_task_runner.py:60} INFO - Started process 1351 to run task
+[2024-03-06T17:39:21.853+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2022-12-01T00:00:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmptxogvkjk']
+[2024-03-06T17:39:21.854+0000] {standard_task_runner.py:88} INFO - Job 109: Subtask download_dataset
+[2024-03-06T17:39:21.879+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [running]> on host e43ee8560afa
+[2024-03-06T17:39:21.906+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2024-03-06T17:39:21.924+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-01T00:00:00+00:00'
+[2024-03-06T17:39:21.925+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-06T17:39:21.926+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh         2023 01']
+[2024-03-06T17:39:21.931+0000] {subprocess.py:86} INFO - Output:
+[2024-03-06T17:39:21.933+0000] {subprocess.py:93} INFO - 
+[2024-03-06T17:39:21.933+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2023/01
+[2024-03-06T17:39:21.937+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-06T17:39:21.938+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-06T17:39:23.708+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1820k    0 17004    0     0  17960      0  0:01:43 --:--:--  0:01:43 17955100 1820k  100 1820k    0     0  1028k      0  0:00:01  0:00:01 --:--:-- 1028k
+[2024-03-06T17:39:23.710+0000] {subprocess.py:93} INFO - Archive:  /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-06T17:39:23.751+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv
+[2024-03-06T17:39:23.752+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/__MACOSX/._JC-202301-citibike-tripdata.csv
+[2024-03-06T17:39:23.923+0000] {subprocess.py:93} INFO -   adding: opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv (deflated 84%)
+[2024-03-06T17:39:23.924+0000] {subprocess.py:93} INFO - 
+[2024-03-06T17:39:23.924+0000] {subprocess.py:93} INFO - Download completed successfully!
+[2024-03-06T17:39:23.925+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-06T17:39:23.939+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20221201T000000, start_date=20240306T173921, end_date=20240306T173923
+[2024-03-06T17:39:23.952+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-06T17:39:23.962+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-03-07T14:07:52.823+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-07T14:07:52.828+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-07T14:07:52.828+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-07T14:07:52.835+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2022-12-01 00:00:00+00:00
+[2024-03-07T14:07:52.838+0000] {standard_task_runner.py:60} INFO - Started process 1219 to run task
+[2024-03-07T14:07:52.840+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2022-12-01T00:00:00+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpkiwr2n23']
+[2024-03-07T14:07:52.841+0000] {standard_task_runner.py:88} INFO - Job 144: Subtask download_dataset
+[2024-03-07T14:07:52.867+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [running]> on host 0430cbdaac75
+[2024-03-07T14:07:52.892+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2024-03-07T14:07:52.998+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-01T00:00:00+00:00'
+[2024-03-07T14:07:52.998+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-07T14:07:52.999+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh         2023 01']
+[2024-03-07T14:07:53.005+0000] {subprocess.py:86} INFO - Output:
+[2024-03-07T14:07:53.006+0000] {subprocess.py:93} INFO - 
+[2024-03-07T14:07:53.006+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2023/01
+[2024-03-07T14:07:53.010+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-07T14:07:53.010+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-07T14:07:55.798+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 15 1820k   15  288k    0     0   120k      0  0:00:15  0:00:02  0:00:13  120k100 1820k  100 1820k    0     0   653k      0  0:00:02  0:00:02 --:--:--  653k
+[2024-03-07T14:07:55.801+0000] {subprocess.py:93} INFO - Archive:  /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-07T14:07:55.843+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv
+[2024-03-07T14:07:55.844+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/__MACOSX/._JC-202301-citibike-tripdata.csv
+[2024-03-07T14:07:56.015+0000] {subprocess.py:93} INFO -   adding: opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv (deflated 84%)
+[2024-03-07T14:07:56.016+0000] {subprocess.py:93} INFO - 
+[2024-03-07T14:07:56.016+0000] {subprocess.py:93} INFO - Download completed successfully!
+[2024-03-07T14:07:56.016+0000] {subprocess.py:93} INFO - /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-07T14:07:56.016+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-07T14:07:56.030+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20221201T000000, start_date=20240307T140752, end_date=20240307T140756
+[2024-03-07T14:07:56.065+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-07T14:07:56.080+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-03-07T17:55:07.766+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-07T17:55:07.771+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [queued]>
+[2024-03-07T17:55:07.771+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-07T17:55:07.778+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): download_dataset> on 2022-12-01 00:00:00+00:00
+[2024-03-07T17:55:07.782+0000] {standard_task_runner.py:60} INFO - Started process 386 to run task
+[2024-03-07T17:55:07.785+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'citibikedataset', 'download_dataset', 'scheduled__2022-12-01T00:00:00+00:00', '--job-id', '205', '--raw', '--subdir', 'DAGS_FOLDER/dag_citibikenyc.py', '--cfg-path', '/tmp/tmpjcjyeayb']
+[2024-03-07T17:55:07.786+0000] {standard_task_runner.py:88} INFO - Job 205: Subtask download_dataset
+[2024-03-07T17:55:07.813+0000] {task_command.py:423} INFO - Running <TaskInstance: citibikedataset.download_dataset scheduled__2022-12-01T00:00:00+00:00 [running]> on host a0c898e5643f
+[2024-03-07T17:55:07.840+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:207 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2024-03-07T17:55:07.858+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='felipeparfitt' AIRFLOW_CTX_DAG_ID='citibikedataset' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-12-01T00:00:00+00:00'
+[2024-03-07T17:55:07.859+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-07T17:55:07.860+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sh ${AIRFLOW_HOME}/include/download_bike_dataset.sh         2023 01']
+[2024-03-07T17:55:07.868+0000] {subprocess.py:86} INFO - Output:
+[2024-03-07T17:55:07.869+0000] {subprocess.py:93} INFO - 
+[2024-03-07T17:55:07.869+0000] {subprocess.py:93} INFO - Downloading citibike dataset from 2023/01
+[2024-03-07T17:55:07.874+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-07T17:55:07.874+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-07T17:55:10.666+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 16 1820k   16  296k    0     0   121k      0  0:00:15  0:00:02  0:00:13  121k100 1820k  100 1820k    0     0   652k      0  0:00:02  0:00:02 --:--:--  652k
+[2024-03-07T17:55:10.669+0000] {subprocess.py:93} INFO - Archive:  /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-07T17:55:10.712+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv
+[2024-03-07T17:55:10.712+0000] {subprocess.py:93} INFO -   inflating: /opt/***/include/dataset/raw/2023/01/__MACOSX/._JC-202301-citibike-tripdata.csv
+[2024-03-07T17:55:10.883+0000] {subprocess.py:93} INFO -   adding: opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv (deflated 84%)
+[2024-03-07T17:55:10.884+0000] {subprocess.py:93} INFO - 
+[2024-03-07T17:55:10.885+0000] {subprocess.py:93} INFO - Download completed successfully!
+[2024-03-07T17:55:10.885+0000] {subprocess.py:93} INFO - /opt/***/include/dataset/raw/2023/01/JC-202301-citibike-tripdata.csv.zip
+[2024-03-07T17:55:10.885+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-07T17:55:10.898+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=citibikedataset, task_id=download_dataset, execution_date=20221201T000000, start_date=20240307T175507, end_date=20240307T175510
+[2024-03-07T17:55:10.928+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-07T17:55:10.942+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
