@@ -1,26 +1,33 @@
-from airflow.operators.bash import BashOperator
-from airflow.operators.python import PythonOperator
-from airflow.operators.dummy import DummyOperator
-from airflow.decorators import dag, task # task_group
 from datetime import datetime
 import os
 import pandas as pd
 
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
+from airflow.operators.dummy import DummyOperator
+from airflow.decorators import dag, task, task_group
+from airflow.models import Variable
+
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyDatasetOperator
+from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobOperator
+from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmptyTableOperator
 
 
-# Astro liba:
+# Astro libs:
 from astro import sql as aql
 from astro.files import File
 from astro.constants import FileType
 from astro.sql.table import Table, Metadata
+import sqlalchemy
+
+
 
 AIRFLOW_HOME = os.getenv("AIRFLOW_HOME")
-GOOGLE_CONNECTION = 'gcp-conn'
-BUCKET_NAME = 'pda-data-pipeline-bucket'
-DATASET_NAME = 'citi_bike_ny_dataset'
-
+GOOGLE_CONNECTION = Variable.get('GOOGLE_CONNECTION')
+BUCKET_NAME = Variable.get('BUCKET_NAME')
+DATASET_NAME = Variable.get('DATASET_NAME')
+CITIBIKE_MAIN_TABLE = Variable.get('CITIBIKE_MAIN_TABLE')
 
 @dag(
     start_date=datetime(2022, 12, 1),  # start_date+schedule_interval
@@ -83,13 +90,41 @@ def citibikedataset():
         # impersonation_chain="None",
     )
     
-    task_create_bigquery_dataset = BigQueryCreateEmptyDatasetOperator(
-        task_id='create_bigquery_dataset',
-        dataset_id=DATASET_NAME,
-        location="US",
-        gcp_conn_id=GOOGLE_CONNECTION,
-        if_exists="log",
-    )
+    @task_group(group_id="group_create_bigquery_dataset")
+    def create_bigquery_dataset():
+        task_create_bigquery_dataset = BigQueryCreateEmptyDatasetOperator(
+            task_id='create_bigquery_dataset',
+            dataset_id=DATASET_NAME,
+            location="US",
+            gcp_conn_id=GOOGLE_CONNECTION,
+            if_exists="log",
+        )
+        
+        task_create_bigquery_main_table = BigQueryCreateEmptyTableOperator(
+            task_id="create_bigquery_main_table",
+            dataset_id=DATASET_NAME,
+            table_id=CITIBIKE_MAIN_TABLE,
+            gcp_conn_id=GOOGLE_CONNECTION,
+            schema_fields=[
+                {"name": "ride_id", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "rideable_type", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "started_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+                {"name": "ended_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+                {"name": "start_station_name", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "start_station_id", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "end_station_name", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "end_station_id", "type": "STRING", "mode": "NULLABLE"},
+                {"name": "start_lat", "type": "FLOAT64", "mode": "NULLABLE"},
+                {"name": "start_lng", "type": "FLOAT64", "mode": "NULLABLE"},
+                {"name": "end_lat", "type": "FLOAT64", "mode": "NULLABLE"},
+                {"name": "end_lng", "type": "FLOAT64", "mode": "NULLABLE"},
+                {"name": "member_casual", "type": "STRING", "mode": "NULLABLE"},
+            ],
+        )
+
+        
+        task_create_bigquery_dataset >> task_create_bigquery_main_table
+    
 
     task_gcs_to_bigquery = aql.load_file(
         task_id='load_file_to_gcs',
@@ -99,15 +134,34 @@ def citibikedataset():
             filetype=FileType.PARQUET
         ),
         output_table=Table(
-            name="_tmp_citibike_{{ next_execution_date .strftime('%Y') }}_{{ next_execution_date .strftime('%m') }}",
+            name="_tmp_citibike_{{ next_execution_date.strftime('%Y') }}_{{ next_execution_date.strftime('%m') }}",
             conn_id=GOOGLE_CONNECTION,
             metadata=Metadata(schema=DATASET_NAME),
-            temp=True
-            
+            temp=True,
+            # columns=[
+            #     sqlalchemy.Column("started_at", sqlalchemy.TIMESTAMP, nullable=False, key="started_at"),
+            #     sqlalchemy.Column("ended_at", sqlalchemy.TIMESTAMP, nullable=False, key="ended_at"),
+            # ]
         ),
-        use_native_support=True
+        #use_native_support=False,
+        if_exists="replace"
     )
     
+    task_append_table_to_main_table = BigQueryInsertJobOperator(
+        task_id='append_table_to_main_table',
+        gcp_conn_id=GOOGLE_CONNECTION,
+        configuration={
+            "query": {
+                "query":"""
+                    INSERT INTO {{ var.value.DATASET_NAME }}.{{ var.value.CITIBIKE_MAIN_TABLE }}
+                    SELECT *
+                    FROM {{ var.value.DATASET_NAME }}.{{ ti.xcom_pull(task_ids='load_file_to_gcs', key='output_table_name') }};
+                """,
+                "useLegacySql": False,
+            }
+        }
+        
+    )
     
     
     
@@ -119,7 +173,7 @@ def citibikedataset():
 
     (
         task_init >> task_download_dataset >> transform_data_parquet() >> task_upload_data_to_gcp >> 
-        task_create_bigquery_dataset >> task_gcs_to_bigquery >> task_finish
+        create_bigquery_dataset() >> task_gcs_to_bigquery >> task_append_table_to_main_table >> task_finish
     )
 
 
